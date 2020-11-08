@@ -59,8 +59,26 @@ Documentation
 
 Schedule's documentation lives at `schedule.readthedocs.io <https://schedule.readthedocs.io/>`_.
 
-Please also check the FAQ there with common questions.
+Please also check the `FAQ <https://schedule.readthedocs.io/#common-questions>`_
+there with common questions.
 
+Alternatively, you can build the documentation locally following below steps.
+
+.. code-block:: bash
+
+    $ pip install -r requirements-dev.txt
+    $ cd docs
+    $ make html
+
+Now, navigate to the documentation and host it using Python's built-in web
+server.
+
+.. code-block:: bash
+
+    $ cd _build/html
+    $ python -m http.server 8888
+
+View the documentation in your browser under `http://localhost:8888 <http://localhost:8888>`_.
 
 Meta
 ----

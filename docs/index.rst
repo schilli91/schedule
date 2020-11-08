@@ -78,6 +78,14 @@ Issues
 If you encounter any problems, please `file an issue <http://github.com/dbader/schedule/issues>`_ along with a detailed description. Please also check the :ref:`frequently-asked-questions` and use the search feature in the issue tracker beforehand to avoid creating duplicates. Thank you 😃
 
 
+Documentation
+--------------
+
+The documentation is written with `Sphinx <https://www.sphinx-doc.org/en/1.4.8/tutorial.html>`_
+and uses its `autodoc extension <https://www.sphinx-doc.org/en/1.4.8/ext/autodoc.html>`_
+to include the python doc strings from within the source code.
+
+
 About Schedule
 --------------
 
